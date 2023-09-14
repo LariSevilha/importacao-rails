@@ -1,0 +1,17 @@
+
+# Tutorial: Mensagem de férias
+Tutorial.create(title: 'Mensagem de férias', date: '03 / 02 / 2020')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Mensagem de férias')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Para configurar a sua mensagem de férias no Webmail, clique em seu nome no canto superior direito e em seguida clique em “Mensagem de Férias“: (ou entre em “Configurações” e em seguida clique em “Férias“):')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Nesta página, preencha todos os campos:')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Assunto: O usuário pode definir um assunto pra mensagem de férias;')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Conteúdo: neste campo, o usuário vai digitar a mensagem que deseja usar durante o período de férias;')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Início das férias: o usuário informa quando começam suas férias, e quando a mensagem começará a ser enviada aos remetentes;')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Término das férias: o usuário informa quando suas férias finalizam, e automaticamente, sua mensagem não será mais enviada;')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Estado: neste campo o usuário define se deseja deixar ativado a sua mensagem de férias (ligado), ou se deseja usá-la em outro momento (desligado);')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Após concluir, clique em “Salvar”:')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Opções avançadas')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Responder endereço do remetente: o usuário pode adicionar um e-mail que deseja responder. Funciona somente se existir alias (apelido) atrelado a conta.')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Meus endereços de e-mail: o usuário seleciona qual serão os endereços de e-mail adicionados, se tiver alias, tbm é possível inseri-los;')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Intervalo de resposta: o usuário define o tempo de intervalo entre as repostas;')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Ações para mensagens recebidas: o usuário define o que deseja fazer com as mensagens recebidas no período de férias (pode manter a mensagem, descartá-la, redirecioná-la para outra conta ou enviar uma cópia para outra conta).')
