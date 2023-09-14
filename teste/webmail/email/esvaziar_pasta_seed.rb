@@ -1,0 +1,8 @@
+EsvaziarPastaTutorial.create(title: 'Como esvaziar uma pasta', date: '03 / 02 / 2020')
+EsvaziarPastaTutorialContent.create(tutorial_id: EsvaziarPastaTutorial.last.id, content: 'Como esvaziar uma pasta')
+EsvaziarPastaTutorialContent.create(tutorial_id: EsvaziarPastaTutorial.last.id, content: 'Para esvaziar a pasta:')
+EsvaziarPastaTutorialContent.create(tutorial_id: EsvaziarPastaTutorial.last.id, content: 'Em “Configurações”, vá até a opção “Pastas” e clique na pasta que deseja limpar:')
+EsvaziarPastaTutorialContent.create(tutorial_id: EsvaziarPastaTutorial.last.id, content: 'Clique em “Esvaziar” e “Ok” logo em seguida:')
+EsvaziarPastaTutorialContent.create(tutorial_id: EsvaziarPastaTutorial.last.id, content: 'Pronto! Sua pasta está vazia!')
+Image.create(tutorial_id: EsvaziarPastaTutorial.last.id, url: 'https://cdn1.agenciaw3.digital//uploads/rails_admin_content_builder/content_builder_image/image/18/center_ComoEsvaziarUmaPasta1.jpg', caption: 'Imagem 1')
+Image.create(tutorial_id: EsvaziarPastaTutorial.last.id, url: 'https://cdn1.agenciaw3.digital//uploads/rails_admin_content_builder/content_builder_image/image/19/center_ComoEsvaziarUmaPasta2.jpg', caption: 'Imagem 2')

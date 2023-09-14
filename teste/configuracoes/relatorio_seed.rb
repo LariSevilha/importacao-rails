@@ -1,0 +1,6 @@
+Tutorial.create(title: 'Relatório', date: '17 / 02 / 2020')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Acesse a opção “Relatório” para obter informações sobre o procedimento de backups e restaurações, além do espaço utilizado pelos conjuntos de backup.')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Ao acessar, você terá acesso a três opções “Backup”, “Restauração” e “Uso”.')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Na opção “Backup” você terá todo histórico de backups e as informações sobre os procedimentos, se foram concluídos com êxito ou erro, quantos arquivos subiram e foram atualizados, quantidade de novos arquivos, quantos arquivos foram excluídos, além do acesso ao log.')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'A opção de “Restauração” é semelhante a de “Backups”, porém com o histórico de restaurações executadas.')
+TutorialContent.create(tutorial_id: Tutorial.last.id, content: 'Na opção “Uso”, você verá quanto que está ocupando de espaço, podendo filtrar essas informações por data e conjuntos de backups.')

@@ -1,0 +1,7 @@
+Category.create(name: 'Email', img_src: 'https://cdn1.agenciaw3.digital//uploads/category_help/icon/1/Webmail-2.png', href: '/ajuda/email-corporativo/email')
+Category.create(name: 'Exchang', img_src: 'https://cdn1.agenciaw3.digital//uploads/category_help/icon/3/Exchange-100x100.png', href: '/ajuda/email-corporativo/exchang')
+Category.create(name: 'Smartphone', img_src: 'https://cdn1.agenciaw3.digital//uploads/category_help/icon/4/Smatphone-4-100x100.png', href: '/ajuda/email-corporativo/smartphone')
+Category.create(name: 'Office 365', img_src: 'https://cdn1.agenciaw3.digital//uploads/category_help/icon/5/Office-365-2-100x100.png', href: '/ajuda/email-corporativo/office-365')
+Category.create(name: 'Soluções de erros', img_src: 'https://cdn1.agenciaw3.digital//uploads/category_help/icon/6/Solu__es-de-erro-100x100.png', href: '/ajuda/email-corporativo/solucoes-de-erros')
+Category.create(name: 'Painel de controle', img_src: 'https://cdn1.agenciaw3.digital//uploads/category_help/icon/7/Painel-de-controle-2-100x100.png', href: '/ajuda/email-corporativo/painel-de-controle')
+Category.create(name: 'Auditoria', img_src: 'https://cdn1.agenciaw3.digital//uploads/category_help/icon/8/Auditoria-100x100.png', href: '/ajuda/email-corporativo/auditoria')

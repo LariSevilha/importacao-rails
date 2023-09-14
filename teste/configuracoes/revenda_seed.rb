@@ -1,0 +1,8 @@
+BackupTutorial.create(title: 'Criar novo usuário do Backup Revenda', date: '17 / 02 / 2020')
+BackupTutorialContent.create(tutorial_id: BackupTutorial.last.id, content: 'Primeiro Adicione os produtos ao cliente.')
+BackupTutorialContent.create(tutorial_id: BackupTutorial.last.id, content: '– Backup Online Licença Basic ou Backup Online Licença Pro')
+BackupTutorialContent.create(tutorial_id: BackupTutorial.last.id, content: '– Backup Online Armazenamento (GB)')
+BackupTutorialContent.create(tutorial_id: BackupTutorial.last.id, content: 'Agora acesse o Painel de controle e clique em Backup Online.')
+BackupTutorialContent.create(tutorial_id: BackupTutorial.last.id, content: 'Após acessar a página clique em “+ CRIAR UMA CONTA DE BACKUP”')
+BackupTutorialContent.create(tutorial_id: BackupTutorial.last.id, content: 'Nesta tela selecione o cliente e crie os dados de acesso ao Backup, depois clique em AVANÇAR.')
+BackupTutorialContent.create(tutorial_id: BackupTutorial.last.id, content: 'Desça a página e clique em SALVAR.')
