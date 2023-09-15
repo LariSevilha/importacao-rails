@@ -1,0 +1,8 @@
+CriarFiltrosTutorial.create(title: 'Como importar um contato', date: '04 / 02 / 2020')
+CriarFiltrosTutorialContent.create(tutorial_id: CriarFiltrosTutorial.last.id, content: 'Como importar um contato')
+CriarFiltrosTutorialContent.create(tutorial_id: CriarFiltrosTutorial.last.id, content: 'Na aba “Contatos” do Webmail, clique em “Importar“:')
+CriarFiltrosTutorialContent.create(tutorial_id: CriarFiltrosTutorial.last.id, content: 'Clique em “Escolher arquivos“, selecione o arquivo de contatos (vCard ou CSV), escolha as opções que desejar e clique em “Importar“:')
+CriarFiltrosTutorialContent.create(tutorial_id: CriarFiltrosTutorial.last.id, content: 'Pronto! Os contatos foram importados com sucesso!')
+Image.create(tutorial_id: CriarFiltrosTutorial.last.id, url: 'https://cdn1.agenciaw3.digital//uploads/rails_admin_content_builder/content_builder_image/image/74/center_1.jpg', caption: 'Imagem 1')
+Image.create(tutorial_id: CriarFiltrosTutorial.last.id, url: 'https://cdn1.agenciaw3.digital//uploads/rails_admin_content_builder/content_builder_image/image/75/center_2.jpg', caption: 'Imagem 2')
+Image.create(tutorial_id: CriarFiltrosTutorial.last.id, url: 'https://cdn1.agenciaw3.digital//uploads/rails_admin_content_builder/content_builder_image/image/76/center_3.jpg', caption: 'Imagem 3')
