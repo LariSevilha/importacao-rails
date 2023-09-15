@@ -1,0 +1,8 @@
+CriarFiltrosTutorial.create(title: 'Como criar um novo calendário', date: '03 / 02 / 2020')
+CriarFiltrosTutorialContent.create(tutorial_id: CriarFiltrosTutorial.last.id, content: 'Como criar um novo calendário')
+CriarFiltrosTutorialContent.create(tutorial_id: CriarFiltrosTutorial.last.id, content: 'Para criar um novo calendário:')
+CriarFiltrosTutorialContent.create(tutorial_id: CriarFiltrosTutorial.last.id, content: 'No calendário do Webmail, vá na opção “Calendários” e clique em “Criar“:')
+CriarFiltrosTutorialContent.create(tutorial_id: CriarFiltrosTutorial.last.id, content: 'Preencha os dados da forma que preferir e clique em “Gravar“:')
+CriarFiltrosTutorialContent.create(tutorial_id: CriarFiltrosTutorial.last.id, content: 'Pronto! Seu novo calendário foi criado!')
+Image.create(tutorial_id: CriarFiltrosTutorial.last.id, url: 'https://cdn1.agenciaw3.digital//uploads/rails_admin_content_builder/content_builder_image/image/63/center_ComoCriarUmNovoCalend_rio1.jpg', caption: 'Imagem 1')
+Image.create(tutorial_id: CriarFiltrosTutorial.last.id, url: 'https://cdn1.agenciaw3.digital//uploads/rails_admin_content_builder/content_builder_image/image/64/center_ComoCriarUmNovoCalendario2-768x574.jpg', caption: 'Imagem 2')

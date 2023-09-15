@@ -1,0 +1,8 @@
+CriarFiltrosTutorial.create(title: 'Como criar eventos no calendário', date: '03 / 02 / 2020')
+CriarFiltrosTutorialContent.create(tutorial_id: CriarFiltrosTutorial.last.id, content: 'Como criar eventos no calendário')
+CriarFiltrosTutorialContent.create(tutorial_id: CriarFiltrosTutorial.last.id, content: 'Para criar novos eventos:')
+CriarFiltrosTutorialContent.create(tutorial_id: CriarFiltrosTutorial.last.id, content: 'No calendário do Webmail, clique em “Novo evento” ou clique onde deseja criar o evento no calendário:')
+CriarFiltrosTutorialContent.create(tutorial_id: CriarFiltrosTutorial.last.id, content: 'Agora o usuário pode definir as opções como desejar e clicar em “Gravar“:')
+CriarFiltrosTutorialContent.create(tutorial_id: CriarFiltrosTutorial.last.id, content: 'Pronto! Seu evento foi criado com sucesso!')
+Image.create(tutorial_id: CriarFiltrosTutorial.last.id, url: 'https://cdn1.agenciaw3.digital//uploads/rails_admin_content_builder/content_builder_image/image/65/center_ComoCriarEventosNoCalendario1.jpg', caption: 'Imagem 1')
+Image.create(tutorial_id: CriarFiltrosTutorial.last.id, url: 'https://cdn1.agenciaw3.digital//uploads/rails_admin_content_builder/content_builder_image/image/66/center_ComoCriarEventosNoCalendario2.jpg', caption: 'Imagem 2')
