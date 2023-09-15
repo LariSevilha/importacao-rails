@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 
-seed_file = File.new("mensagem_de_ferias_seed.rb", "a") # Use "a" para adicionar ao arquivo existente
+seed_file = File.new("mensagem_de_ferias_seed.rb", "w")  
 
 begin
   doc = Nokogiri::HTML(URI.open('https://www.agenciaw3.digital/ajuda/email-corporativo/email/tutorial/mensagem-de-ferias'))
