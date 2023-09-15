@@ -1,0 +1,6 @@
+CriarFiltrosTutorial.create(title: 'Regras de exclusão', date: '03 / 02 / 2020')
+CriarFiltrosTutorialContent.create(tutorial: CriarFiltrosTutorial.last, content: 'Regras de exclusão skymail – Pasta Lixeira & Pasta Spam')
+CriarFiltrosTutorialContent.create(tutorial: CriarFiltrosTutorial.last, content: 'No webmail você navegar até configurações, na parte superior a direita, clique em pastas;')
+CriarFiltrosTutorialContent.create(tutorial: CriarFiltrosTutorial.last, content: '“Lixo Eletrônico” – 30 dias')
+CriarFiltrosTutorialContent.create(tutorial: CriarFiltrosTutorial.last, content: '“Lixeira” – 30 dias')
+Image.create(tutorial: CriarFiltrosTutorial.last, url: 'https://cdn1.agenciaw3.digital//uploads/rails_admin_content_builder/content_builder_image/image/61/center_1.png', caption: 'Imagem 1')
